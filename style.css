@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Smooch+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* Nav container start*/
+nav{
+    width: 100%;
+    background-color: #000127;
+    height: 65px;
+}
+.container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Nav container end*/
+
+
+/* brand section start*/
+.brand-section{
+    display: flex;
+    align-items: center;
+}
+.bran-logo{
+    margin-right: 1rem;
+    color: #FFF;
+}
+.bran-logo span{
+    font-size: 2.5rem;
+}
+.brand-title a {
+    text-decoration: none;
+    color: #fff;
+
+}
+/* brand section end*/
+
+/* main-menu section start*/
+
+.main-menu{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.main-menu a, .right-menu a{
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    color:#fff;
+}
+
+.main-menu a:hover{
+    text-decoration: underline;
+    color: #ffff00;
+}
+/* main-menu section end*/
+
+
+/* Right-menu section start*/
+
+.right-menu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.right-menu button{
+    background: transparent;
+    color: #FFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /*font-size: 1.5rem;*/
+}
+.right-menu button > span{
+    font-size: 1 rem;
+}
+
+/* Right-menu section end*/
