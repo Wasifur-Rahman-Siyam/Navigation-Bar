@@ -90,3 +90,36 @@ nav{
 }
 
 /* Right-menu section end*/
+
+/* dropdown section start*/
+
+.dropdown{
+    position: relative;
+}
+.dropdown:hover .drop-down-items{
+    display: block;
+}
+.dropdown > .drop-down-items{
+    position: absolute;
+    background-color: #fff;
+    width: 7rem; 
+    right:0%;
+    display: none;
+}
+
+.drop-down-item-ul{
+    list-style-type: none;
+
+}
+.drop-down-items-li{
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+.drop-down-items-li:hover{
+    background-color: #ddd;
+}
+.drop-down-items-li a{
+    color: #000;
+    font-weight: bold;
+}
+/* dropdown section end*/
